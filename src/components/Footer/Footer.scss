@@ -1,0 +1,59 @@
+@import "../../Responsive.scss";
+@import "../../Colors.scss";
+
+
+#AJ{
+    margin-inline: 3%;
+    height: max-content;
+   
+    margin-bottom: 5dvh;
+    box-shadow: 0px 0px 9px 0px rgba(128, 128, 128, 1);
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    @include xl{
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+    @include md{
+        display: grid;
+        grid-template-columns: auto auto ;
+        height: max-content;
+        gap: 20px;
+    }
+    @include sm{
+        display: grid;
+        grid-template-columns: auto ;
+        height: max-content;
+        justify-content: center;
+    }
+    div{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        a{
+            text-decoration: none;
+            color: black;
+            font-size: 20px;
+        }
+        
+    }
+}
+#AK{
+    display: flex !important;
+    flex-direction: row !important;
+    img{
+        width: 50px;
+        height: 50px;
+    }
+}
+#AL{
+    img{
+       width: 200px;
+       height: 70px;
+    }
+}
+#AM{
+    transform: rotateY(180deg);
+}

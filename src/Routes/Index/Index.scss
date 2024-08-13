@@ -1,0 +1,763 @@
+@import "../../Responsive.scss";
+@import "../../Colors.scss";
+
+
+
+#G{
+    margin-inline: 5%;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 60px;
+    
+    
+}
+
+
+
+
+
+#AA{
+   
+    height: 25dvh;
+    border: 1px solid black;
+    width: 100%;
+    margin-block: 50px;
+       display: flex;
+       flex-direction: column;
+    border-radius:20px;
+    z-index: 99999;
+    margin-top: -14dvh;
+    position: relative;
+    background-color: white;
+    box-shadow: 0px 70px 25px 18px #14ffef38;
+    @include sm{
+      height: max-content;
+    }
+    .header{
+      height:8dvh;
+     
+       padding-inline:2.5%;
+       
+        padding-inline:2.5%;
+        display: flex;
+        @include sm{
+          flex-direction: column;
+          gap: 30px;
+        }
+       
+       
+        input{
+            border: 1px solid black;
+           
+           }
+        span{
+            font-size: 25px;
+        
+        }
+    }
+    button{
+       
+        position: absolute;
+        bottom: 40px;
+        right: 2.5%;
+        padding: 10px;
+        border-radius: 15px;
+        @include sm{
+          bottom: 10px;
+          padding: 5px;
+          right: 10px;
+        }
+    }
+    
+    }
+    #BB{
+        width: 100%;
+    height: 55dvh;
+   
+    margin-block: 50px;
+   
+    border-radius:20px ;
+    z-index: 99999;
+    margin-top: -20dvh;
+    position: relative;
+    border: 1px solid black;
+    background-color: white;
+    box-shadow: 0px 70px 25px 18px rgba(20, 255, 239, 0.219);
+    @include md{
+      height: max-content;
+      gap: 5dvh;
+      display: flex;
+      flex-direction: column;
+    }
+ 
+    .header{
+       height:8dvh;
+      
+        padding-inline:2.5%;
+        @include md{
+          display: flex;
+          flex-direction: column;
+          gap: 30px;
+        }
+
+       input{
+        border: 1px solid black;
+        
+       }
+       span{
+        font-size: 25px;
+        
+    }
+    }
+    button{
+        right: 2%;
+        bottom: 40px;
+        position: absolute;
+        padding: 10px;
+        border-radius: 15px;
+     @include sm{
+      padding: 5px;
+     }
+    }
+    
+    }
+    #CC{
+    
+    left: 0px;
+    top: 50%;
+    position: absolute;
+    
+    }
+    #QQ{
+        width: 50%;
+        height: 300px;
+       
+        
+        margin-block: 50px;
+        margin-inline: 50px;
+        border-radius:20px;
+    
+    
+    
+    }
+    #H{
+        display: flex;
+        align-items: center;
+        background-color: white;
+        position: relative;
+        width:30%;
+        @include sm{
+          width: 100%;
+        }
+        svg{
+            position: absolute;
+            right: 10px;
+        }
+        input{
+           position: absolute;
+        }
+    }
+   #I{
+   
+   gap: 50px;
+    display: flex;
+   align-items: center;
+    padding-left:2.5%;
+    padding-top: 20px;
+    
+   @include sm{
+    gap: 5px;
+    padding-left: 5px;
+    flex-direction: column;
+    align-items: start;
+    padding-left: 10px;
+    padding-bottom: 100px;
+    margin-top: 10px;
+   
+    
+    
+   }
+    div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+         
+   @include sm{
+  
+   
+    align-items: start;
+   
+    
+    
+   }
+        input{
+            width: 40px;
+            height: 40px;
+            border-radius:10px;
+            border: 1px solid black;
+        }
+    }
+   }
+ 
+   #K{
+    height: 40%;
+    width: 100%;
+    display: flex;
+   padding-inline: 2.5%;
+    @include xl{
+    padding-block: 20px;
+    }
+    @include md{
+      flex-direction: column;
+      gap: 40px;
+      align-items: center;
+      justify-content: center;
+    }
+   }
+   #L{
+    height: 18%;
+    width: 100%;
+   
+    display:  flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px ;
+    position: relative;
+    padding-left:2.5%;
+    @include xl{
+      flex-direction: column;
+      align-items: start;
+      gap: 10px;
+    }
+    @include md{
+    margin-bottom:15dvh;
+    height: 20dvh;
+   
+    }
+   }
+   #LL{
+    gap: 20px;
+    display: flex;
+    align-items: center;
+    @include sm{
+      flex-direction: column;
+      gap: 0;
+    }
+  
+    input{
+        width: 100px;
+        height: 50px;
+        border-radius: 15px;
+        border: 1px solid black;
+        
+
+       
+    }
+    #LLL{
+      display: flex;
+    
+    }
+   }
+   #M{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+ 
+    width: 25%;
+   
+    position: relative;
+    padding-right: a;
+    align-items: center;
+    justify-content: center;
+    @include xl{
+    gap: 45px;
+    margin-inline: 5px;
+    }
+    @include md{
+      width: 50%;
+    }
+    @include sm{
+      width: 95%;
+    }
+   
+    
+   }
+   #ZIB{
+    @include xl{
+      position: absolute;
+      
+    }
+    
+    
+   }
+   #N{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-right: auto;
+    
+  
+    input{
+       right: 0;
+       position: absolute;
+       width: 40px;
+       height: 40px;
+       border-radius:10px;
+       border: 1px solid black;
+    }
+   }
+   #P{
+  
+    width: 70%;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+   
+    justify-content: center;
+    align-items: center;
+    @include md{
+      width: 100%;
+    }
+   @include sm{
+   margin-right: 40%;
+   
+   }
+   @include xxs{
+    flex-direction: column;
+     }
+   
+   
+   
+    div{
+        display: flex;
+        flex-direction: row;
+       justify-content: space-evenly;
+       
+     
+    }
+   
+    
+   }
+   #R{
+    width: 190px;
+    height: 50px;
+   
+    margin-left: 210px;
+   @include sm{
+    
+    width: 100px;
+   }
+   @include xxs{
+    margin-left: 80px;
+    width: 20px;
+   }
+   }
+   #S{
+    
+    display: flex;
+    flex-direction: row !important;
+    align-items: center;
+    justify-content: space-between;
+   
+    position: relative;
+
+   @include sm{
+      width: 70%;
+
+    }
+    @include xxs{
+    flex-direction: column;
+     }
+   
+   
+   }
+  #zam{
+    left: 10%;
+    position: absolute;
+    
+  }
+  #LLLL{
+    position: absolute;
+    gap: 40px;
+    display: flex;
+    align-items: center;
+    right: 35%;
+    input{
+        width: 100px;
+        height: 50px;
+        border-radius: 15px;
+        border: 1px solid black;
+       
+    }
+    @include md{
+      right: 5px;
+      position: absolute;
+      bottom: 0;
+     
+    }
+  }
+  #MM{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  
+    width: 25%;
+  margin-right: 10px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    @include xl{
+      gap: 45px;
+      margin-inline: 5px;
+      }
+      @include md{
+        width: 50%;
+      }
+      @include sm{
+        width: 95%;
+      }
+     
+  }
+  #U{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    font-size: 50px;
+    @include md{
+      font-size: 25px;
+    }
+  }
+  #V{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+    font-size: 20px;
+    @include md{
+      font-size: 10px;
+      flex-direction: column;
+    }
+  }
+
+  #WW{
+    margin-bottom:10dvh;
+    margin-inline: 3%;
+    padding: 2%;
+    position: relative;
+    @include md{
+      margin-bottom:20%;
+    }
+ 
+  }
+ 
+  #W{
+   
+    
+   
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    justify-content: space-between;
+    gap: 30px;
+    position: relative;
+    .card{
+      transition: 0.5s;
+      a{
+        text-decoration: none;
+        color: black;
+      }
+     
+    &:hover{
+      scale: 0.95;
+      transition: 0.5s;
+    }
+    }
+    @include xl{
+      grid-template-columns: 48% 48%;
+    }
+   
+    @include md{
+      grid-template-columns:auto;
+      margin-inline: 0;
+     justify-content: center;
+    }
+   
+    h4{
+        padding-left: 20px;
+        color: red;
+        margin-block: 10px;
+        
+        
+    }
+    h3{
+        padding-left: 20px;
+        
+    }
+    p{
+        padding-left: 20px;
+    }
+    h5{
+        right: 10px;
+        position: absolute;
+        bottom: 10px;
+        a{
+            text-decoration: none;   
+            color: black;
+            &:hover{
+                color: red;
+
+            }
+        }
+       
+    }
+
+  }
+  .card{
+   border-radius: 30px;
+  
+   
+    img{
+
+        height: 68%;
+        width: 100%;
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+        @include xxl{
+          height: 60%;
+        }
+        @include xxs{
+          height: 40%;
+        }
+        
+        }
+  }
+ 
+
+  #Y{
+    margin-inline: 5%;
+    height: 50dvh;
+   
+    display: flex;
+    margin-bottom: 10dvh;
+    @include sm{
+      height: 25dvh;
+      margin-bottom: 5dvh;
+    }
+    #Z{
+        width: 80%;
+        height: 100%;
+        @include sm{
+          width: 60%;
+        }
+      
+      
+        img{
+            width: 100%;
+            height: 100%;
+            border-radius: 15px;
+
+        }
+    }
+    #ZZ{
+        width: 20%;
+        height: 100%;
+       
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        @include sm{
+          width: 30%;
+        }
+      
+
+        button{
+            width: 90%;
+            height: 15%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-radius: 15px;
+            font-size: 20px;
+             border: none;
+             background-color: white ;
+             box-shadow: 0px 0px 9px 0px rgba(128, 128, 128, 1);
+             transition: 0.5s;
+             @include xl{
+              font-size: 19px;
+            }
+             @include lg{
+              font-size: 15px;
+            }
+             @include md{
+              font-size: 13px;
+             
+            }
+             @include sm{
+              font-size: 9px;
+            }
+             &:hover{
+                color:#14ffef57;
+                box-shadow: 0px 0px 9px 0px hsla(176, 100%, 54%, 0.623);
+                scale: 0.95;
+                transition: 0.5s;
+                color: hsla(184, 100%, 54%, 0.589);
+             }
+             
+           
+            
+        }
+    }
+  }
+  #AB{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    
+   
+  }
+  #icon{
+   position: absolute;
+   left: 4%;
+  }
+  #iconn{
+    position: absolute;
+   right: 4%;
+  }
+  #AC{
+    margin-inline: 3%;
+    height: 50dvh;
+    margin-bottom: 10dvh;
+   position: relative;
+    background: linear-gradient(359deg,hsla(176, 100%, 54%, 0.301) 20%, #ffffff 80%);
+    display: flex;
+   justify-content: center;
+    align-items: center;
+   
+   
+   
+    .card{
+      width: 100%;
+      height: 100%;
+     
+    }
+  }
+  #AD{
+    width: 80%;
+    height: 80%;
+     display: flex;
+   
+    justify-content: space-evenly;
+    align-items: center;
+   
+    
+    .mySwiper{
+        height: 100%;
+        width: 100%;
+        .card{
+          transition: 0.5s;
+          &:hover{
+            scale: 0.95;
+            transition: 0.5s;
+          }
+        }
+        
+        a{
+        
+            text-decoration: none;
+            color: black;
+        
+         
+        }
+        
+           
+    }
+
+    }
+  
+
+#AE{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+ 
+    img{
+       padding: 10px;
+       border-radius: 10px;
+    }
+    h4{
+        margin-block: 20px;
+        padding-left: 20px;
+    }
+    h6{
+        padding-left: 20px;
+    }
+   
+}
+
+  
+  #AF{
+    margin-inline: 12%;
+    height: 2px;
+    background-color: gray;
+    margin-bottom: 10dvh;
+  }
+  
+  #AG{
+    justify-content: center;
+    display: flex;
+    margin-bottom:7dvh ;
+  }
+  
+  #AH{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10dvh;
+    span{
+      
+      @include  xl{
+        font-size: 14px ;
+      }
+      @include  lg{
+        font-size: 11px ;
+      }
+      @include  md{
+        font-size: 8px ;
+      }
+      @include  sm{
+        font-size: 7px ;
+      }
+      @include  xs{
+        font-size: 5px ;
+      }
+    }
+  
+  }
+  #AI{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10dvh;
+    gap: 10dvh;
+    @include md{
+      flex-direction: column;
+      gap: 5dvh;
+    }
+  }
+img{
+    width: 15dvh;
+    height: 15dvh;
+    
+   
+}
+#WWW{
+  width: 100%;
+  height: 60%;
+  background: linear-gradient(180deg,hsla(176, 100%, 52%, 0.301) 0%, #ffffff 100%);
+  position: absolute;
+  top: 25dvh;
+  right: 0;
+  border-radius: 20px;
+}
