@@ -33,10 +33,10 @@ function Header() {
           <div id="birrr">
             <div id="zoroo">
               <div id="C">
-                <img src="A.jpg" />
+                <img src="../src/A.jpg" />
               </div>
               <lable htmlFor="C">
-                <a href="">Michael</a>
+                <a href="">Mahmoud Kavousi</a>
               </lable>
             </div>
             <div id="zoro">
@@ -58,10 +58,10 @@ function Header() {
         <div className="header d-none d-md-flex">
           <div id="D">
             <div id="C">
-              <img src="A.jpg" />
+              <img src="../src/A.jpg" />
             </div>
             <lable htmlFor="C">
-              <a href="">Michael</a>
+              <a href="">Mahmoud Kavousi</a>
             </lable>
           </div>
           <div id="E">

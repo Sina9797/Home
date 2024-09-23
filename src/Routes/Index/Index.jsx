@@ -1,11 +1,8 @@
 import React from "react";
-import Product from "../../components/Product/Product";
-import { Link, NavLink } from "react-router-dom";
 import "./Index.scss";
 import {
   faChevronLeft,
   faChevronRight,
-  faCoffee,
   faSearch,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -16,8 +13,6 @@ import { useState } from "react";
 import "swiper/css";
 import "swiper/css/pagination";
 import { Navigation } from "swiper/modules";
-
-import { Pagination } from "swiper/modules";
 
 function Index() {
   const [isHidden1, setIsHidden1] = useState(false);
@@ -54,64 +49,64 @@ function Index() {
   const Fo = [
     {
       Picture: "house.jpg",
-    
-      description: "House ",
-      city: "Madrid",
-      price: "$ 750.000",
-    },
-    {
-      Picture: "house.jpg",
-    
-      description: "House ",
-      city: "Madrid",
-      price: "$ 750.000",
-    },
-    {
-      Picture: "house.jpg",
-   
-      description: "House ",
-      city: "Madrid",
-      price: "$ 750.000",
-    },
-    {
-      Picture: "house.jpg",
-      Title: "4 ماشین",
-      description: "House ",
-      city: "Madrid",
-      price: "$ 750.000",
-    },
-    {
-      Picture: "house.jpg",
-   
-      description: "House ",
+     
+      description: "House 500M",
       city: "Madrid",
       price: "$ 750.000",
     },
     {
       Picture: "house.jpg",
      
-      description: "House ",
-      city: "Madrid",
-      price: "$ 750.000",
-    },
-    {
-      Picture: "house.jpg",
- 
-      description: "House ",
+      description: "House 500M",
       city: "Madrid",
       price: "$ 750.000",
     },
     {
       Picture: "house.jpg",
     
-      description: "House ",
+      description: "House 500M",
+      city: "Madrid",
+      price: "$ 750.000",
+    },
+    {
+      Picture: "house.jpg",
+      
+      description: "House 500M",
       city: "Madrid",
       price: "$ 750.000",
     },
     {
       Picture: "house.jpg",
      
-      description: "House ",
+      description: "House 500M",
+      city: "Madrid",
+      price: "$ 750.000",
+    },
+    {
+      Picture: "house.jpg",
+  
+      description: "House 500M",
+      city: "Madrid",
+      price: "$ 750.000",
+    },
+    {
+      Picture: "house.jpg",
+   
+      description: "House 500M",
+      city: "Madrid",
+      price: "$ 750.000",
+    },
+    {
+      Picture: "house.jpg",
+     
+      description: "House 500M",
+      city: "Madrid",
+      price: "$ 750.000",
+    },
+    {
+      Picture: "house.jpg",
+    
+      description: "House 500M",
       city: "Madrid",
       price: "$ 750.000",
     },
@@ -231,7 +226,7 @@ function Index() {
       <span id="U">SUGGESTIONS</span>
       <span id="V">
         Lorem ipsum dolor sit amet. consectetur elit. sed do eiusmod tempor
-        <p className="d-sm-none">incididunt ut labore.</p><span className="d-none d-sm-flex">incididunt ut labore.</span>
+        incididunt ut labore.
       </span>
       <div id="WW">
         <div id="WWW"></div>
@@ -511,9 +506,9 @@ function Index() {
       </div>
 
       <div id="AI">
-        <img src="BB.jpg" />
-        <img src="CC.jpg" />
-        <img src="DD.jpg" />
+        <img src="../src/B.jpg" />
+        <img src="../src/C.jpg" />
+        <img src="../src/D.jpg" />
       </div>
     </>
   );

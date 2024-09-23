@@ -425,8 +425,11 @@
     justify-content: center;
     margin-bottom: 20px;
     font-size: 50px;
-    @include md{
+    @include lg{
       font-size: 25px;
+    }
+    @include sm{
+      font-size: 15px;
     }
   }
   #V{
@@ -435,9 +438,11 @@
     justify-content: center;
     margin-bottom: 50px;
     font-size: 20px;
-    @include md{
-      font-size: 10px;
-      flex-direction: column;
+    @include lg{
+      font-size: 9px;
+    }
+    @include sm{
+      font-size: 8px;
     }
   }
 

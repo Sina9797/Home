@@ -42,16 +42,16 @@ function Footer() {
           <h3>iHome</h3>
           <div id="AK">
             <Link>
-              <img src="FF.jpg" />
+              <img src="../src/F.jpg" />
             </Link>
             <Link>
-              <img src="EE.png" />
+              <img src="../src/E.png" />
             </Link>
             <Link>
-              <img src="GG.png" />
+              <img src="../src/G.png" />
             </Link>
             <Link>
-              <img src="HH.png" />
+              <img src="../src/H.png" />
             </Link>
           </div>
           <div className="mt-3">
@@ -70,10 +70,10 @@ function Footer() {
         <div id="AL">
           <h3>Applications</h3>
           <Link>
-            <img src="apple.png" />
+            <img src="../src/apple.png" />
           </Link>
           <Link>
-            <img src="play.webp" />
+            <img src="../src/play.webp" />
           </Link>
         </div>
       </div>
